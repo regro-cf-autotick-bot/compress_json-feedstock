@@ -1,5 +1,5 @@
 {% set name = "compress_json" %}
-{% set version = "1.0.10" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/compress_json-{{ version }}.tar.gz
-  sha256: 2d49517417bdbf102c18aafe0d6d621971605bbc13689205e042dbcc5e87c38f
+  sha256: 2d9aea3fabfe3b9a77d2a8afa005c47a6b3b3fb59d6eb833ec3337f99fba3164
 
 build:
   noarch: python
